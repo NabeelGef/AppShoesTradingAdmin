@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="250sp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:id="@+id/image1"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/delete_shoes"
+                android:background="@drawable/ic_baseline_close_24"
+                android:layout_marginStart="-15dp"
+                android:layout_toEndOf="@id/image1"/>
+        </RelativeLayout>
+            <TextView
+                android:layout_width="250sp"
+                android:layout_weight="1"
+                android:layout_height="35sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="15sp"
+                android:id="@+id/price" />
+            <TextView
+                android:layout_width="250sp"
+                android:layout_weight="1"
+                android:layout_height="35sp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="15sp"
+                android:id="@+id/type" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ControlPanalAmal</string>
+    <string name="controlpanal">ControlPanal</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="home">Home</string>
+    <string name="add_product">add Product</string>
+    <string name="about_us">about us</string>
+    <string name="category">Category:</string>
+    <string name="price">Price:</string>
+    <string name="made">Made:</string>
+    <string name="sizes">Sizes:</string>
+    <string name="colors">Colors:</string>
+    <string name="description">description:</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_shoes">Add Shoes</string>
+    <string name="add_shoes_image">add shoes image</string>
+    <string name="type">Type</string>
+    <string name="loading">Loading...</string>
+
+</resources>
